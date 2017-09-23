@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>second.vc.title.ja</key>
+	<string>これはページ2です</string>
+	<key>first.vc.title.ja</key>
+	<string>Appの使用言語</string>
+	<key>second.vc.title.zh</key>
+	<string>這是第二頁</string>
+	<key>first.vc.title.zh</key>
+	<string>App 語言</string>
+	<key>second.vc.title.en</key>
+	<string>Second View</string>
+	<key>first.vc.title.en</key>
+	<string>App Language</string>
+</dict>
+</plist>
