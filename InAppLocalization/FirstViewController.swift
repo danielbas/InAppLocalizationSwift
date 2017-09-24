@@ -36,7 +36,9 @@ class FirstViewController: UIViewController {
     }
     
     private func reloadStrings() {
-        pageLabel.text = "Select app language".localized(key: "first.vc.title")
+        DispatchQueue.main.async {
+            self.pageLabel.text = "Select app language".localized(key: "first.vc.title")
+        }
     }
     
     @objc func controlValueChanged(_ sender: UISegmentedControl) {

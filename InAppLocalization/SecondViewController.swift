@@ -25,7 +25,9 @@ class SecondViewController: UIViewController {
     }
     
     private func reloadStrings() {
-        pageLabel.text = "Second View Controller".localized(key: "second.vc.title")
+        DispatchQueue.main.async {
+            self.pageLabel.text = "Second View Controller".localized(key: "second.vc.title")
+        }
     }
     
 }
